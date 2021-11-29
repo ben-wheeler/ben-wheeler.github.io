@@ -20,10 +20,10 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
+          <h2 className="lead typist" cursor={{ show: false }}>
             {" "}
             {message}
-          </Typist>
+          </h2>
           <div className="p-5">
             {icons.map((icon, index) => (
               <a
