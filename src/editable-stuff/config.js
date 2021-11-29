@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Contact Details",
   message:
-    "I'm currently looking for any Software Engineering Opportunities opportunities! If you know of any positions available, or want to get in contact please feel free to email me at",
+    "I'm currently looking for any Software Engineering opportunities! If you know of any positions available, or want to get in contact please feel free to contact me via: Discord: bhen#2171 or via email at",
   email: "benjamindwheeler@gmail.com",
 };
 
