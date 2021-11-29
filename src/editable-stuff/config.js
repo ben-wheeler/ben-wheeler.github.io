@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "I’m an aspiring Software Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
+  message: "An Adelaide based aspiring Software Engineer with Experience in C++ and Swift.",
   icons: [
     {
       image: "fa-github",
