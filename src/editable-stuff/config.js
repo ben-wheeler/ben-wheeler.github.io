@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "I’m an aspiring Soft Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
+  message: "I’m an aspiring Software Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/benwheeler.png"),
   imageSize: 375,
   message:
-  "I’m an aspiring Soft Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
+  "I’m an aspiring Software Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
