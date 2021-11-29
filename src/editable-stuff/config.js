@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based aspiring Software Engineer with Experience in C++ and Swift.",
+  message: "An Adelaide based Software Engineer student with Experience in C++ and Swift.",
   icons: [
     {
       image: "fa-github",
