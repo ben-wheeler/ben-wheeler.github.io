@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#3376C1, #19C8B3, #9955B4, #9B081C",
+  gradientColors: "#4484ce, #1ad7c0, #9b59b6",
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based Computer Science student with Experience in C++ and Swift / SwiftUI.",
+  message: "An Adelaide based Software Engineer student with Experience in C++ and Swift.",
   icons: [
     {
       image: "fa-github",
@@ -17,18 +17,17 @@ const mainBody = {
     },
     // {
     //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/,
+    //   url: "https://www.facebook.com/",
     // },
-
+    // {
+    //   image: "fa-instagram",
+    //   url: "https://www.instagram.com/",
+    // },
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ben-wheeler-220363223",
     },
-    // {
-    //   image: "fa-twitter",
-    //   url: "https://www.twitter.com/",
-    // },
-        {
+    {
       image: "fa-telegram-plane",
       url: "mailto:benjamindwheeler@gmail.com",
     },
