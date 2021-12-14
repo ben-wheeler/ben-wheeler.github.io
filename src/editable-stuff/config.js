@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #9b59b6",
+  gradientColors: "#3376C1, #19C8B3, #9955B4, #9B081C",
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based Software Engineer student with Experience in C++ and Swift.",
+  message: "An Adelaide based Computer Science student with Experience in C++ and Swift / SwiftUI.",
   icons: [
     {
       image: "fa-github",
@@ -17,20 +17,21 @@ const mainBody = {
     },
     // {
     //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/hashirshoaeb",
+    //   url: "https://www.facebook.com/,
     // },
-    // {
-    //   image: "fa-instagram",
-    //   url: "https://www.instagram.com/hashirshoaeb/",
-    // },
+
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ben-wheeler-220363223",
     },
     // {
     //   image: "fa-twitter",
-    //   url: "https://www.twitter.com/hashirshoaeb/",
+    //   url: "https://www.twitter.com/",
     // },
+        {
+      image: "fa-telegram-plane",
+      url: "mailto:benjamindwheeler@gmail.com",
+    },
   ],
 };
 
@@ -54,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/benwheeler.png"),
   imageSize: 375,
   message:
-  "I’m an aspiring Software Engineer / Computer Scientist. Currently, I am enrolled in a Bachelor of Engineering (Software) (Honours) at the University of Adelaide.",
+  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my second year of a Bachelor of Computer Science at the University of Adelaide. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -67,7 +68,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "ben-wheeler", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
