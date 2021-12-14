@@ -5,27 +5,27 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #9b59b6",
+  gradientColors: "#3376C1, #19C8B3, #9955B4, #9B081C",
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based Software Engineer student with Experience in C++ and Swift.",
+  message: "An Adelaide based Computer Science student with Experience in C++ and Swift / Swift UI.",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/ben-wheeler",
     },
+    {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/ben-wheeler-220363223",
+    },
     // {
     //   image: "fa-facebook",
     //   url: "https://www.facebook.com/",
     // },
-    // {
-    //   image: "fa-instagram",
-    //   url: "https://www.instagram.com/",
-    // },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/ben-wheeler-220363223",
+      image: "fa-discord",
+      url: "https://discordapp.com/users/535041082304757770/",
     },
     {
       image: "fa-telegram-plane",
