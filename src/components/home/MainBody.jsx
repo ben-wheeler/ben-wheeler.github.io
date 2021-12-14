@@ -43,7 +43,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            Learn more about me + contact details
           </a>
         </Container>
       </Jumbotron>
