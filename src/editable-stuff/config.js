@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based Computer Science student with Experience in C++ and Swift / Swift UI.",
+  message: "An Adelaide based third Computer Science student, majoring in Cyber Security with Experience in C++ and Swift / Swift UI.",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/benwheeler.png"),
   imageSize: 375,
   message:
-  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my second year of a Bachelor of Computer Science at the University of Adelaide. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software",
+  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my third year of a Bachelor of Computer Science at the University of Adelaide, with a major in Cyber Security. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
