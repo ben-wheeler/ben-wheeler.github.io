@@ -131,7 +131,7 @@ const experiences = {
   heading: "Experience",
   data: [
     {
-      role: 'Software Engineer Intern',// Here Add Company Name
+      role: 'Software Engineer Intern',
       companylogo: require('../assets/img/maptek.png'),
       date: 'Nov 2022 – Present',
     },
@@ -142,10 +142,5 @@ const experiences = {
     },
   ]
 }
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
