@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based third year Computer Science student, majoring in Cybersecurity with Experience in C++ and Swift / Swift UI.",
+  message: "An Adelaide based third year Computer Science student, majoring in Cybersecurity with Experience in C++, Python and Swift / Swift UI.",
   icons: [
     {
       image: "fa-github",
@@ -19,10 +19,6 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ben-wheeler-220363223",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/",
-    // },
     {
       image: "fa-discord",
       url: "https://discordapp.com/users/535041082304757770/",
@@ -59,7 +55,7 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
@@ -131,18 +127,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Engineer Intern',// Here Add Company Name
+      companylogo: require('../assets/img/maptek.png'),
+      date: 'Nov 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Computer Science Student',
+      companylogo: require('../assets/img/uofa.png'),
+      date: 'Mar 2020 – Aug 2023',
     },
   ]
 }
