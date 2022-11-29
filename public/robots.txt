@@ -1,2 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
+https://ben-wheeler.github.io/
+https://ben-wheeler.github.io/#projects
+https://ben-wheeler.github.io/#aboutme
