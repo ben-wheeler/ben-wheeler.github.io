@@ -21,7 +21,7 @@
     <hr>
     <p>This document outlines how the application Book End makes use of your data. It also explains how a user can delete / revoke any data.</p>
     <h2>On device data</h2>
-    <p>When using the application, information about books and reading sessions are stored on your device locally. These remain private (on device) never contact any external servers.</p>
+    <p>When using the application, information about books and reading sessions are stored on your device locally. These remain private (on device) and are never transfered to any external servers.</p>
     <p>The following information is stored on your device:</p>
     <h3>Books</h3>
     <ul>
@@ -42,6 +42,8 @@
       <li>Duration of reading session</li>
     </ul>
 
+    <h2>Scanning Books</h2>
+    <p>When scanning a book's ISBN / Barcode using the "Scan Book" feature, a text copy of the ISBN is sent as a request to Google Books. This is used to return a books data. This data is sent privately, and at no time is the developer able to view or access any data sent, or view any results from the camera. No data of this request is stored.</p>
     <h2>Photo Access</h2>
     <p>Photo Library access is required in order to import images of books into the app. No image data is ever transfered off your device.</p>
     <p>To revoke this, please do so in the iOS Privacy Settings.</p>
