@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/benwheeler.png"),
   imageSize: 375,
   message:
-  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my third year of a Bachelor of Computer Science at the University of Adelaide, with a major in Cybersecurity. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software",
+  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my third year of a Bachelor of Computer Science at the University of Adelaide, with a major in Cybersecurity. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -130,15 +130,20 @@ const experiences = {
   show: true,
   heading: "Experience",
   data: [
+    // {
+    //   role: 'iOS Developer: BookEnd',
+    //   companylogo: require('../assets/img/BookEndIcon.png'),
+    //   date: 'March 2023 - Present'
+    // },
     {
       role: 'Software Engineer Intern',
       companylogo: require('../assets/img/maptek.png'),
-      date: 'Nov 2022 – Present',
+      date: 'Nov 2022 – March 2023',
     },
     {
       role: 'Computer Science Student',
       companylogo: require('../assets/img/uofa.png'),
-      date: 'Mar 2020 – Aug 2023',
+      date: 'Mar 2020 – June 2023',
     },
   ]
 }
