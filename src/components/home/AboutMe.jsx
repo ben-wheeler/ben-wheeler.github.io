@@ -48,8 +48,12 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           )}
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
-          <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
+          <h2 className="display-4 text-center">{heading}</h2>
+          {message.split('\n\n').map((para, index) => (
+            <p key={index} className="lead text-start">
+              {para}
+            </p>
+          ))}          
           {resume && (
             <p className="lead text-center">
               <a
@@ -60,7 +64,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 role="button"
                 aria-label="Resume/CV"
               >
-                Resume
+                View Resume
               </a>
             </p>
           )}

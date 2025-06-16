@@ -10,18 +10,19 @@ const MainBody = React.forwardRef(
         id="home"
         style={{
           background: `linear-gradient(136deg,${gradient})`,
-          backgroundSize: "1200% 1200%",
+          backgroundSize: "1000% 1000%",
         }}
-        className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
+        className="title bg-transparent bgstyle text-light d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+
+          <div className="p-5">
+          <h1 ref={ref} className="display-2">
             {title}
           </h1>
-          <div className="lead">
+          <div className="lead mb-3">
             {message}
           </div>
-          <div className="p-5">
             {icons.map((icon, index) => {
               const isBrand =
                 icon.image.includes("fa-github") ||
@@ -44,14 +45,6 @@ const MainBody = React.forwardRef(
               );
             })}
           </div>
-          <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            View Experiences
-          </a>
         </Container>
       </Jumbotron>
     );
