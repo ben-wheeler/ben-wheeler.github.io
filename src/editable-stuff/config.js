@@ -24,7 +24,11 @@ const mainBody = {
       url: "https://discordapp.com/users/535041082304757770/",
     },
     {
-      image: "fa-telegram-plane",
+      image: "fa-app-store",
+      url: "https://apps.apple.com/au/app/book-end-reading-tracker/id6447303933"
+    },
+    {
+      image: "fa-envelope",
       url: "mailto:benjamindwheeler@gmail.com",
     },
   ],
@@ -61,7 +65,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Recent GitHub Activity",
   gitHubUsername: "ben-wheeler", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],

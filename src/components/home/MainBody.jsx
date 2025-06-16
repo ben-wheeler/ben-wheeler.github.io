@@ -26,17 +26,27 @@ const MainBody = React.forwardRef(
             </div>
           </Typist>
           <div className="p-5">
-            {icons.map((icon, index) => (
-              <a
-                key={`social-icon-${index}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
-              </a>
-            ))}
+            {icons.map((icon, index) => {
+              const isBrand =
+                icon.image.includes("fa-github") ||
+                icon.image.includes("fa-linkedin") ||
+                icon.image.includes("fa-discord") ||
+                icon.image.includes("fa-app-store");
+
+              const iconClass = `${isBrand ? "fab" : "fas"} ${icon.image} fa-3x socialicons`;
+
+              return (
+                <a
+                  key={`social-icon-${index}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={icon.url}
+                  aria-label={`My ${icon.image.split("-")[1]}`}
+                >
+                  <i className={iconClass} />
+                </a>
+              );
+            })}
           </div>
           <a
             className="btn btn-outline-light btn-lg "
@@ -44,7 +54,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            More about & Contact me
+            View Experiences
           </a>
         </Container>
       </Jumbotron>
