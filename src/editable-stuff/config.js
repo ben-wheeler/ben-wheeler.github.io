@@ -63,7 +63,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "ben-wheeler", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 4,
   specificRepos: [],
 };
 
@@ -130,18 +130,27 @@ const experiences = {
   show: true,
   heading: "Experience",
   data: [
-    // {
-    //   role: 'iOS Developer: BookEnd',
-    //   companylogo: require('../assets/img/BookEndIcon.png'),
-    //   date: 'March 2023 - Present'
-    // },
+    {
+      role: 'Graduate Software Engineer',
+      company: "Fivecast",
+      companylogo: require('../assets/img/current.png'),
+      date: 'July 2023 - Present'
+    },
+    {
+      role: 'Hobby iOS Developer: Book End',
+      company: "BookEnd",
+      companylogo: require('../assets/img/BookEndIcon.png'),
+      date: 'March 2023 - Present'
+    },
     {
       role: 'Software Engineer Intern',
+      company: "Maptek",
       companylogo: require('../assets/img/maptek.png'),
       date: 'Nov 2022 – March 2023',
     },
     {
-      role: 'Computer Science Student',
+      role: 'Bachelor of Computer Science',
+      company: "University of Adelaide",
       companylogo: require('../assets/img/uofa.png'),
       date: 'Mar 2020 – June 2023',
     },
