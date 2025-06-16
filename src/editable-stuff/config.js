@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based third year Computer Science student, majoring in Cybersecurity with Experience in C++, Python and Swift / Swift UI.",
+  message: "Adelaide Based Software Engineer",
   icons: [
     {
       image: "fa-github",
@@ -34,27 +34,18 @@ const mainBody = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-
 const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/benwheeler.png"),
   imageSize: 375,
-  message:
-  "Hello! I’m Ben, an aspiring Computer Science Student currently studying my third year of a Bachelor of Computer Science at the University of Adelaide, with a major in Cybersecurity. I am passionate about technology, and programming, and hope that I can make a difference in the real world through creating useful software.",
+  message: `Hey! I'm Ben, an Adelaide based Software Engineer with a Bachelor of Computer Science Degree, with a major in Cybersecurity.
+
+  I am passionate about technology, programming, and challenging myself. I hope that I can make a difference in the real world through creating useful software.
+
+  I've got over three years of industry experience in Java, TypeScript, C++, and Python.
+
+  In my spare time, I've also been working on my reading habit tracker app Book End — a reading tracker that I've published to the Apple App Store, that I continuously work towards improving and adding new features.`,
   resume: require("../editable-stuff/resume.pdf"),
 };
 
