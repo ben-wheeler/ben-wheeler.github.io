@@ -126,7 +126,7 @@ const experiences = {
   heading: "Experience",
   data: [
     {
-      role: 'Graduate Software Engineer',
+      role: 'Software Engineer',
       company: "Fivecast",
       companylogo: require('../assets/img/current.png'),
       date: 'July 2023 - Present'
