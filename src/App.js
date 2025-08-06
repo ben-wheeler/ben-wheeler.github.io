@@ -20,26 +20,19 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import MainBodyAbout from "./components/home/MainBodyAbout.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
-      <MainBody
-        gradient={mainBody.gradientColors}
-        title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
-        message={mainBody.message}
-        icons={mainBody.icons}
-        ref={ref}
-      />
-      {about.show && (
-        <AboutMe
-          heading={about.heading}
-          message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
-          resume={about.resume}
-        />
-      )}
+    {
+<MainBodyAbout
+  mainBody={mainBody}
+  about={about}
+  ref={ref}
+/>
+}
+
       {
         experiences.show && (
           <Experience experiences={experiences} />
