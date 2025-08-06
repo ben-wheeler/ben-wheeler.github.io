@@ -30,7 +30,7 @@ const MainBody = React.forwardRef(
                 icon.image.includes("fa-discord") ||
                 icon.image.includes("fa-app-store");
 
-              const iconClass = `${isBrand ? "fab" : "fas"} ${icon.image} fa-3x socialicons`;
+              const iconClass = `${isBrand ? "fab" : "fas"} ${icon.image} fa-2x socialicons`;
 
               return (
                 <a
