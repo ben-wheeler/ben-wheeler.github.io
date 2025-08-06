@@ -28,26 +28,14 @@ const MainBodyAbout = React.forwardRef(
             >
                 <div className="row align-items-start">
                     <div className="col-lg-6 pb-5 px-0">
-                        <div className="d-flex flex-wrap flex-lg-nowrap align-items-start justify-content-start">
-                            {showPic && (
-                                <div className="me-lg-5 mb-3 mb-lg-0">
-                                    <img
-                                        className="border border-secondary rounded-circle"
-                                        src={profilePicUrl}
-                                        alt="profilepicture"
-                                        width={about.imageSize}
-                                        height={about.imageSize}
-                                    />
-                                </div>
-                            )}
-
-                            <div className="text-start">
+                        <div className="d-flex flex-wrap flex-lg-nowrap align-items-end justify-content-end px-5">
+                            <div className="text-end">
                                 <h1 ref={ref} className="display-2 mb-3 name-nowrap">
                                     {`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
                                 </h1>
                                 <div className="lead mb-3">{mainBody.message}</div>
 
-                                <div className="d-flex flex-wrap gap-3">
+                                <div className="d-flex flex-wrap align-items-end justify-content-end gap-3">
                                     {mainBody.icons.map((icon, index) => {
                                         const isBrand =
                                             icon.image.includes("fa-github") ||
@@ -71,6 +59,17 @@ const MainBodyAbout = React.forwardRef(
                                     })}
                                 </div>
                             </div>
+                            {showPic && (
+                                <div className="me-lg-5 mx-5">
+                                    <img
+                                        className="border border-secondary rounded-circle"
+                                        src={profilePicUrl}
+                                        alt="profilepicture"
+                                        width={about.imageSize}
+                                        height={about.imageSize}
+                                    />
+                                </div>
+                            )}
                         </div>
                     </div>
 
