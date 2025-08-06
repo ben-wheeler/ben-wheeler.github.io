@@ -10,8 +10,6 @@ import {
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
-import MainBody from "./components/home/MainBody";
-import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -25,14 +23,13 @@ import MainBodyAbout from "./components/home/MainBodyAbout.jsx";
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
-    {
-<MainBodyAbout
-  mainBody={mainBody}
-  about={about}
-  ref={ref}
-/>
-}
-
+      {
+      <MainBodyAbout
+        mainBody={mainBody}
+        about={about}
+        ref={ref}
+      />
+      }
       {
         experiences.show && (
           <Experience experiences={experiences} />
