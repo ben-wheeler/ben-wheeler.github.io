@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ben",
   middleName: "",
   lastName: "Wheeler",
-  message: "An Adelaide based Software Engineer",
+  message: "A Software Engineer, from Adelaide Australia",
   icons: [
     {
       image: "fa-github",
@@ -38,7 +38,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/benwheeler.png"),
-  imageSize: 375,
+  imageSize: 175,
   message: `Hey! I'm Ben, an Adelaide based Software Engineer with a Bachelor of Computer Science Degree, with a major in Cybersecurity.
 
   I am passionate about technology, programming, and challenging myself. I hope that I can make a difference in the real world through creating useful software.
