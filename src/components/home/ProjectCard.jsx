@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
+import bookEndIcon from "../../assets/img/BookEndIcon.png";
 
 const ProjectCard = ({ value }) => {
   const {
@@ -30,6 +31,69 @@ const ProjectCard = ({ value }) => {
             <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
             <Skeleton />
+          )}
+        </Card.Body>
+      </Card>
+    </Col>
+  );
+};
+
+export const AppStoreCard = ({ url, appId }) => {
+  const [appDetails, setAppDetails] = useState(null);
+
+  useEffect(() => {
+    axios
+      .get("https://itunes.apple.com/lookup", {
+        params: { id: appId, country: "au" },
+      })
+      .then(({ data }) => {
+        if (data.results?.length) setAppDetails(data.results[0]);
+      })
+      .catch((error) => console.error(error.message));
+  }, [appId]);
+
+  return (
+    <Col md={6}>
+      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+        <Card.Body>
+          <div className="d-flex align-items-start">
+            <img
+              src={bookEndIcon}
+              alt="Book End icon"
+              width="96"
+              height="96"
+              className="rounded me-3"
+            />
+            <div className="flex-grow-1">
+              <Card.Title as="h5">Book End: Reading Habit Tracker</Card.Title>
+              <Card.Text>
+                Personal Project published on the Apple App Store.
+              </Card.Text>
+              <div className="d-grid gap-2 d-md-block mt-3">
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-secondary"
+                >
+                  <i className="fab fa-app-store-ios" /> App Store
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div className="pb-3">
+            Languages:{" "}
+            <span className="badge bg-light text-dark">SwiftUI</span>
+          </div>
+          {appDetails && (
+            <small className="text-muted">
+              Version {appDetails.version} · Updated {new Intl.DateTimeFormat("en-AU", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              }).format(new Date(appDetails.currentVersionReleaseDate))}
+            </small>
           )}
         </Card.Body>
       </Card>

@@ -52,10 +52,12 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent GitHub Activity",
+  heading: "Projects",
   gitHubUsername: "ben-wheeler", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 3,
   specificRepos: [],
+  bookEndUrl: "https://apps.apple.com/au/app/book-end-reading-tracker/id6447303933",
+  bookEndId: "6447303933",
 };
 
 // Leadership SECTION
@@ -134,22 +136,16 @@ const experiences = {
       date: 'July 2023 - October 2026'
     },
     {
-      role: 'Hobby iOS Developer: Book End',
-      company: "BookEnd",
-      companylogo: require('../assets/img/BookEndIcon.png'),
-      date: 'March 2023 - Present'
-    },
-    {
       role: 'Software Engineer Intern',
       company: "Maptek",
       companylogo: require('../assets/img/maptek.png'),
-      date: 'Nov 2022 – March 2023',
+      date: 'Summer 2022-23',
     },
     {
       role: 'Bachelor of Computer Science',
       company: "University of Adelaide",
       companylogo: require('../assets/img/uofa.png'),
-      date: 'Mar 2020 – June 2023',
+      date: '2020 – 2023',
     },
   ]
 }
