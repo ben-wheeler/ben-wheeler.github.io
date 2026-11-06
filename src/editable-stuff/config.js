@@ -20,11 +20,7 @@ const mainBody = {
       url: "https://www.linkedin.com/in/ben-wheeler-220363223",
     },
     {
-      image: "fa-discord",
-      url: "https://discordapp.com/users/535041082304757770/",
-    },
-    {
-      image: "fa-app-store",
+      image: "fa-app-store-ios",
       url: "https://apps.apple.com/au/app/book-end-reading-tracker/id6447303933"
     },
     {
