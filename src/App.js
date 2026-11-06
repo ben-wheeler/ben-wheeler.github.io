@@ -5,17 +5,13 @@ import {
   mainBody,
   about,
   repos,
-  leadership,
-  skills,
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
 import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
-import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import MainBodyAbout from "./components/home/MainBodyAbout.jsx";
@@ -45,22 +41,6 @@ const Home = React.forwardRef((props, ref) => {
           bookEndId={repos.bookEndId}
         />
       )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
-
     </>
   );
 });
