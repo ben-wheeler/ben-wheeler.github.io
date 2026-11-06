@@ -1,3 +1,4 @@
-https://ben-wheeler.github.io/
-https://ben-wheeler.github.io/#projects
-https://ben-wheeler.github.io/#aboutme
+User-agent: *
+Allow: /
+
+Sitemap: https://ben-wheeler.github.io/sitemap.xml
