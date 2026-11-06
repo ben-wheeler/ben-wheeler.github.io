@@ -56,15 +56,15 @@ export const AppStoreCard = ({ url, appId }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <div className="d-flex align-items-start">
+          <div className="d-flex flex-column flex-md-row align-items-center align-items-md-start">
             <img
               src={bookEndIcon}
               alt="Book End icon"
               width="96"
               height="96"
-              className="rounded me-3"
+              className="rounded mb-3 mb-md-0 me-md-3"
             />
-            <div className="flex-grow-1">
+            <div className="flex-grow-1 text-center text-md-start">
               <Card.Title as="h5">Book End: Reading Habit Tracker</Card.Title>
               <Card.Text>
                 Personal Project published on the Apple App Store.
