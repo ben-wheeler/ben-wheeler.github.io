@@ -125,7 +125,7 @@ const experiences = {
       role: 'Software Engineer',
       company: "Qantas",
       companylogo: require('../assets/img/qantas.png'),
-      date: 'July 2023 - October 2026'
+      date: 'October 2026 - Present'
     },
     {
       role: 'Software Engineer',
