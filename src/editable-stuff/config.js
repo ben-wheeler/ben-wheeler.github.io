@@ -123,13 +123,19 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experience",
+  heading: "Experiences",
   data: [
+        {
+      role: 'Software Engineer',
+      company: "Qantas",
+      companylogo: require('../assets/img/qantas.png'),
+      date: 'July 2023 - October 2026'
+    },
     {
       role: 'Software Engineer',
       company: "Fivecast",
-      companylogo: require('../assets/img/current.png'),
-      date: 'July 2023 - Present'
+      companylogo: require('../assets/img/fivecast.png'),
+      date: 'July 2023 - October 2026'
     },
     {
       role: 'Hobby iOS Developer: Book End',
